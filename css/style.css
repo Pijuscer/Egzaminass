@@ -1,0 +1,23 @@
+p{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+p span {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+header h1, p{
+    text-align: center;
+}
+
+h1{
+   color: darkslategray;
+}
+
+p{
+    color: mediumblue;
+}
+
+

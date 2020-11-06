@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receptų ieškojimas</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="jumbotron"  >
+                <h1 class="display-4">Skaniausi receptai</h1>
+                <p class="lead">Įrašykite recepto pavadinimą ir paspauskite ieškoti</p>
+            </header>
+            <section>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Įrašykite recepto pavadinimą" id="paieska">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="ieskoti">Ieškoti</button>
+                    </div>
+                </div>
+            </section>
+            <main class="py-4">
+                <h1 class="text-center"><a id="pavadinimas" target="_blank"></a></h1>
+                <div class="d-flex info">
+                    <img src="" id="nuotrauka" class="pr-3">
+                    <div class="align-self-center">
+                        <p>Ingridientai: <span id="ingridientai"></span> </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/recipe.js"></script>
+    </body>
+</html>
